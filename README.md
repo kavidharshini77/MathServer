@@ -44,7 +44,7 @@ Publish the website in Localhost.
 
 ## PROGRAM:
 math.html
-
+```
 <html>
     <head>
         <title>
@@ -125,7 +125,7 @@ from mathapp import views
 urlpatterns = [
     path('', views.calculate_gst, name='Total')
 ]
-
+```
 
 ## OUTPUT - SERVER SIDE:
 ![alt text](<Screenshot 2026-02-26 225508.png>)
